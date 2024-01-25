@@ -229,7 +229,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: 110.w,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
-                                  color: Colors.red),
+                                  color: Colors.green),
                               child: Center(
                                 child: Text(
                                   "Add\nPatient",
