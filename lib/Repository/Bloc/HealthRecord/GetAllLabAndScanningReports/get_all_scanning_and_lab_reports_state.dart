@@ -1,0 +1,12 @@
+part of 'get_all_scanning_and_lab_reports_bloc.dart';
+
+@immutable
+sealed class GetAllScanningAndLabReportsState {}
+
+final class GetAllScanningAndLabReportsInitial extends GetAllScanningAndLabReportsState {}
+
+
+class GetAllScanningAndLabReportsLoading extends GetAllScanningAndLabReportsState{}
+class GetAllScanningAndLabReportsLoaded extends GetAllScanningAndLabReportsState{}
+class GetAllScanningAndLabReportsError extends GetAllScanningAndLabReportsState{}
+
